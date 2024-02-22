@@ -9,8 +9,9 @@ public class TestRunner {
 	
 	
 	@SuppressWarnings("deprecation")
-	@Test
-	public void test()
+	//@Test
+	//public void test()
+	public static void main(String[] args)
 	{
 		System.out.println("Testing the Selenium Application");
 		
