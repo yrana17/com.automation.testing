@@ -17,7 +17,7 @@ public class TestRunner {
 		WebDriver driver;
 		ChromeOptions options = new ChromeOptions();
 		options.setAcceptInsecureCerts(true);
-		options.setHeadless(true);
+		//options.setHeadless(true);
 		driver = new ChromeDriver(options);
 		System.out.println("Start Testing");
 		driver.get("https://www.google.com");
